@@ -1,0 +1,85 @@
+body{
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+    font-family: system-ui;
+
+    
+}
+.menu {
+    width: 90%;
+    background-color: rgb(246, 240, 232);
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+h1, h2, h3, p, img{
+    text-align: center;
+
+}
+h1{
+    color: saddlebrown;
+}
+
+
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+.name{
+    text-align: left;
+    width: 74%;
+}
+
+.item p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    
+}
+
+.price{
+    text-align: right;
+    color: orangered;
+}
+
+.cof{
+    color:peru;
+}
+.des{
+    color: pink;
+}
+
+hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+a:hover {
+  
+  color: brown;
+  
+}

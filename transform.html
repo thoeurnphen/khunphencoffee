@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform</title>
+
+</head>
+<body>
+    
+    <style>
+    /* style  css for rund website   */
+        .text{
+            
+            width: 100px;
+            height: 100px;
+
+            color:white;
+            font-size: 50px;
+            text-align: center;
+
+            line-height: 100px;
+            margin-bottom: 5px;
+            border-radius: 15px;
+            border-color: blue;
+            box-sizing: 50px;
+        }
+        .green{
+            background-color: rgb(1, 84, 66);
+            
+        }
+        .green:hover{
+            transform: rotate(90deg);
+
+        }
+        .red{
+            background-color: rgb(3, 115, 167);
+            transform: translate(50px);
+            
+        }
+        .red:hover{
+            transform: scale(1,2);
+
+        }
+        .blue{
+            background-color: blue;
+            transition:cubic-bezier(0.075, 0.82, 0.165, 1);
+            transition: all 1s linear;
+            transform: rotate(45deg);
+        }
+        .blue:hover{
+            transform: rotate(75deg);
+        }
+
+    </style>
+
+    <div class="text green">
+        I
+
+    </div>
+    <div class="text red">
+        Love
+
+    </div>
+    <div class="text blue">
+        You
+
+    </div>
+     
+</body>
+</html>
+
+
+
